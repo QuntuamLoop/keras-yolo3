@@ -54,6 +54,7 @@ If you want to use original pretrained weights for YOLOv3:
     2. rename it as darknet53.weights  
     3. `python convert.py -w darknet53.cfg darknet53.weights model_data/darknet53_weights.h5`  
     4. use model_data/darknet53_weights.h5 in train.py
+    5. change the layer numbers of freeze_body in train.py
 
 ---
 
